@@ -1,0 +1,29 @@
+{
+  "name": "css-parse-keyframes",
+  "version": "0.0.1",
+  "scripts": {
+    "debug": "node --inspect --debug-brk parse.js",
+    "build": "node parse.js"
+  },
+  "description": "Node.js moduel parse your css and returns the object of all animations",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retyui/css-parse-keyframes.git"
+  },
+  "keywords": [
+    "css",
+    "keyframes",
+    "parser"
+  ],
+  "author": "retyui <vamnemne@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retyui/css-parse-keyframes/issues"
+  },
+  "homepage": "https://github.com/retyui/css-parse-keyframes#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "css": "^2.2.1"
+  }
+}
