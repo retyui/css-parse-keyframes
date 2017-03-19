@@ -1,10 +1,6 @@
 {
   "name": "css-parse-keyframes",
   "version": "0.0.1",
-  "scripts": {
-    "debug": "node --inspect --debug-brk parse.js",
-    "build": "node parse.js"
-  },
   "description": "Node.js moduel parse your css and returns the object of all animations",
   "main": "index.js",
   "repository": {
