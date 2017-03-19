@@ -49,8 +49,8 @@ function parseCss(str, opt) {
 };
 
 module.exports = {
-	css: function(cssSource) {
-		var _result = {}
+	css: function(cssSource, _result) {
+		_result = _result || {}
 			, i, len;
 		if (Array.isArray(cssSource)) {
 			for (i = 0, len = cssSource.length; i < len; i++) {
