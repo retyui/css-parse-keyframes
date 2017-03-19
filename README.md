@@ -1,6 +1,13 @@
 # css-parse-keyframes
 Node js moduel parse your css and  returns the object of all animations
 
+## Install
+```bash
+npm i css-parse-keyframes -D 
+npm install css-parse-keyframes --save-dev
+//or
+yarn add css-parse-keyframes --dev
+```
 
 ## Usage:
 
